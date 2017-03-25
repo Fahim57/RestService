@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>School</title>
+	<script src="https://code.jquery.com/jquery-2.2.3.js"></script>
+	<script src="my_jquery_functions.js"></script>
+	
+	<style type="text/css">
+		label 	{ float: left; width: 100px; }
+		input 	{ margin-bottom: 3px;}
+		div 	{ display: none; }
+		h3 		{ background-color: aqua; cursor: pointer; }
+		form	{ display: none; }
+		a		{ margin-right: 10px; }
+	</style>
+</head>
+<body>
+	<h3 id="showForm">Register Nieuwe School</h3>
+	<form id="schoolForm" >
+		<fieldset>
+			<span id="message"></span><br/>
+			<label>code:</label><input type="text" name="code"/><br/>
+			<label>naam:</label><input type="text" name="naam"/><br/>
+			<label>plaats:</label><input type="text" name="plaats"/><br/>
+			
+			<button type="button" id="createSchool">Register School</button>
+		</fieldset>
+	</form>
+
+	<h3 id="showList">School Lijst</h3>	
+	<div id="schoolList">
+		
+	
+		<a href="#" id="all">Al</a>
+		
+		<table id="scholen">
+		
+		</table>
+	</div>
+	
+</body>
+</html>
