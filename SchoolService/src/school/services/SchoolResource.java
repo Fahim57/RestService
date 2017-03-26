@@ -32,7 +32,7 @@ public class SchoolResource {
 			job.add("naam" , s.getNaam());
 			job.add("plaats" , s.getPlaats());
 //			job.add("studenten", s.getStudenten());
-			//studs = s.getStudenten();
+//			studs = s.getStudenten();
 //			job.add("studenten", (JsonValue)studs);
 			
 			JsonArrayBuilder studArr = Json.createArrayBuilder();
